@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font family -->
+    <link
+      href="https://fonts.cdnfonts.com/css/helvetica-neue-5"
+      rel="stylesheet"
+    />
+
+    <!-- font family -->
+    <title>Facebook Profile Layout (Bootstrap 5)</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar position-fixed end-0 start-0 navbar-expand-lg bg-light"
+      style="height: 61px; box-shadow: 0px 1px 2px 0px #00000033"
+    >
+      <div
+        class="d-flex w-100 h-full align-items-center justify-content-between"
+      >
+        <div class="d-flex align-items-center">
+          <div class="me-2">
+            <a
+              class="ms-3 position-relative d-flex align-items-center justify-content-center"
+              style="
+                background: linear-gradient(#0062e0, #19afff);
+                width: 40px;
+                height: 39.78px;
+                border-radius: 50%;
+              "
+              href="#"
+            >
+              <img
+                class="position-absolute bottom-0"
+                src="/img/logo.png"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="input-group">
+            <div class="position-relative">
+              <img
+                style="
+                  position: absolute;
+                  height: 16px;
+                  width: 16px;
+                  top: 30%;
+                  left: 10px;
+                "
+                src="/img/search.png"
+                alt=""
+              />
+              <input
+                type="text"
+                style="border-radius: 100px; width: 281px"
+                aria-label="Last name"
+                class="form-control ps-5"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="w-100">
+          <div class="d-flex justify-content-evenly">
+            <div>
+              <img src="/img/home.png" alt="" />
+            </div>
+            <div>
+              <img src="/img/video.png" alt="" />
+            </div>
+            <div>
+              <img src="/img/marketplace.png" alt="" />
+            </div>
+            <div>
+              <img src="/img/friends.png" alt="" />
+            </div>
+            <div>
+              <img src="/img/l-icon.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="d-flex">
+            <ul class="navbar-nav flex-row align-items-center">
+              <li
+                class="nav-item text-center d-flex align-items-center rounded-circle me-5"
+                style="width: 40px; height: 40px; background-color: #e5e6eb"
+              >
+                <a
+                  class="nav-link d-flex justify-content-center align-items-center w-100 h-100"
+                  href="#"
+                >
+                  <img src="#" style="width: 100%; height: 100%" alt="n" />
+                </a>
+                <span class="ms-3" style="font-size: 15px; font-weight: 500"
+                  >Sally</span
+                >
+              </li>
+              <li
+                class="nav-item position-relative text-center rounded-circle me-2"
+                style="width: 40px; height: 40px; background-color: #e5e6eb"
+              >
+                <a
+                  class="nav-link d-flex justify-content-center align-items-center w-100 h-100"
+                  href="#"
+                >
+                  <img
+                    src="/img/union.png"
+                    style="width: 15px; height: 15px"
+                    alt=""
+                  />
+                </a>
+              </li>
+
+              <li
+                class="nav-item position-relative rounded-circle me-2"
+                style="width: 40px; height: 40px; background-color: #e5e6eb"
+              >
+                <a
+                  class="nav-link align-items-center justify-content-center h-100 d-flex"
+                  href="#"
+                >
+                  <svg
+                    viewBox="0 0 24 24"
+                    width="15.71"
+                    height="16.21"
+                    fill="#66676B"
+                    aria-hidden="true"
+                    class="xfx01vb x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq"
+                  >
+                    <path
+                      d="M3 9.5a9 9 0 1 1 18 0v2.927c0 1.69.475 3.345 1.37 4.778a1.5 1.5 0 0 1-1.272 2.295h-4.625a4.5 4.5 0 0 1-8.946 0H2.902a1.5 1.5 0 0 1-1.272-2.295A9.01 9.01 0 0 0 3 12.43V9.5zm6.55 10a2.5 2.5 0 0 0 4.9 0h-4.9z"
+                    ></path>
+                  </svg>
+
+                  <span
+                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill"
+                    style="
+                      width: 20px;
+                      background-color: #de3f4f;
+                      height: 20px;
+                      text-align: center;
+                    "
+                    >4</span
+                  >
+                </a>
+              </li>
+              <li
+                class="nav-item position-relative text-center rounded-circle me-2"
+                style="width: 40px; height: 40px; background-color: #e5e6eb"
+              >
+                <a
+                  class="nav-link d-flex justify-content-center align-items-center w-100 h-100"
+                  href="#"
+                >
+                  <svg
+                    viewBox="0 0 12 12"
+                    width="17.14"
+                    height="17.14"
+                    fill="#66676B"
+                    aria-hidden="true"
+                    class="xfx01vb x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq"
+                  >
+                    <g stroke="none" stroke-width="1" fill-rule="evenodd">
+                      <path
+                        d="m106.868 921.248-1.892 2.925a.32.32 0 0 1-.443.094l-1.753-1.134a.2.2 0 0 0-.222.003l-1.976 1.363c-.288.199-.64-.143-.45-.437l1.892-2.925a.32.32 0 0 1 .443-.095l1.753 1.134a.2.2 0 0 0 .222-.003l1.976-1.363c.288-.198.64.144.45.438m-3.368-4.251c-3.323 0-5.83 2.432-5.83 5.658 0 1.642.652 3.128 1.834 4.186a.331.331 0 0 1 .111.234l.03 1.01a.583.583 0 0 0 .82.519l1.13-.5a.32.32 0 0 1 .22-.015c.541.148 1.108.223 1.685.223 3.323 0 5.83-2.432 5.83-5.657 0-3.226-2.507-5.658-5.83-5.658"
+                        transform="translate(-450 -1073.5) translate(352.5 156.845)"
+                      ></path>
+                    </g>
+                  </svg>
+                </a>
+              </li>
+              <li
+                class="nav-item position-relative text-center rounded-circle me-2"
+                style="width: 40px; height: 40px; background-color: #e5e6eb"
+              >
+                <a
+                  class="nav-link d-flex justify-content-center align-items-center w-100 h-100"
+                  href="#"
+                >
+                  <img
+                    src="/img/Polygon.svg"
+                    style="width: 15px; height: 15px"
+                    alt=""
+                  />
+                </a>
+              </li>
+            </ul>
+
+            <!-- <div class="dropdown ms-3">
+            <a
+              class="nav-link dropdown-toggle d-flex text-center  align-items-center justify-content-center"
+              href="#"
+              id="userDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              style="background-color: #e5e6eb; width: 40px; height: 40px; border-radius: 50%;"
+            >
+            
+             <img src="/img/Polygon.svg" alt="">
+            </a>
+            <ul
+              class="dropdown-menu dropdown-menu-end"
+              aria-labelledby="userDropdown"
+            >
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li><a class="dropdown-item" href="#">Settings</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Logout</a></li>
+            </ul>
+          </div> -->
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div
+        class="banner-img pt-5"
+        style="background-color: #ffffff; box-shadow: 0px 1px 2px 0px #00000033"
+      >
+        <div style="background: linear-gradient(#6f6f7a, #ffffff)">
+          <div class="container">
+            <img
+              class="w-100"
+              style="height: 348px; object-fit: cover; border-radius: 10px"
+              src="/img/banner.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="profile-section">
+          <div class="container-main">
+            <div
+              class="d-flex align-items-center pb-4"
+              style="border-bottom: 1px solid #cfd0d4"
+            >
+              <div>
+                <div style="height: 132px; width: 132px">
+                  <img
+                    src="/img/banner.jpg"
+                    class="w-100 h-100 object-fit-cover rounded-circle"
+                    alt="n"
+                  />
+                </div>
+              </div>
+              <div class="ms-4">
+                <h2 style="font-size: 28px; font-weight: 700; color: #080808">
+                  Mahdi Hasan Rafi
+                </h2>
+                <span style="color: #66676b; font-size: 17px">Industry</span>
+              </div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="router-btn container-main">
+          <div class="d-flex align-items-center justify-content-between">
+            <div class="">
+              <ul
+                class="d-flex gap-4 mb-0"
+                style="list-style-type: none; color: #66676b; font-size: 15px"
+              >
+                <li
+                  style="
+                    border-bottom: 2px solid #0572ef;
+                    color: #0572ef;
+                    padding: 24px 0px;
+                  "
+                >
+                  <a class="nav-link" style="font-weight: 500" href="#">Home</a>
+                </li>
+                <li class="nav-item py-4">
+                  <a class="nav-link" href="#">Reviews</a>
+                </li>
+                <li class="nav-item py-4">
+                  <a class="nav-link" href="#">Community</a>
+                </li>
+                <li class="nav-item py-4">
+                  <a class="nav-link" href="#"
+                    >More <img src="/img/open-icon.svg" alt=""
+                  /></a>
+                </li>
+              </ul>
+              <div></div>
+            </div>
+            <div class="d-flex gap-3 align-items-center">
+              <span
+                style="
+                  color: #0572ef;
+                  padding: 12px;
+                  background-color: #e9f3fe;
+                  border-radius: 6px;
+                "
+              >
+                <img src="/img/like.png" alt="" />
+                Liked
+              </span>
+              <span
+                style="
+                  color: #080808;
+                  padding: 12px;
+                  background-color: #e5e6eb;
+                  border-radius: 6px;
+                "
+              >
+                <img src="/img/messenger.png" alt="" />
+                Message
+              </span>
+              <span
+                style="
+                  color: #080808;
+                  padding: 12px;
+                  background-color: #e5e6eb;
+                  border-radius: 6px;
+                "
+              >
+                <img src="/img/search.png" alt="" />
+              </span>
+              <div
+                style="
+                  color: #080808;
+                  padding: 12px;
+                  background-color: #e5e6eb;
+                  border-radius: 6px;
+                "
+              >
+                <img src="/img/dot.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="container-main">
+          <div class="row gx-3">
+            <div class="col-md-5 mt-3">
+              <div
+                class="bg-white p-3"
+                style="
+                  box-shadow: 0px 1px 2px 0px #00000033;
+                  border-radius: 8px;
+                "
+              >
+                <div class="d-flex justify-content-between align-items-center">
+                  <h3 class="fw-bold" style="color: #080808; font-size: 20px">
+                    About
+                  </h3>
+                  <div>
+                    <span
+                      style="font-size: 15px; font-weight: 500; color: #0572ef"
+                      >See all</span
+                    >
+                  </div>
+                </div>
+                <div
+                  class="position-relative"
+                  style="width: 100%; height: 170px"
+                >
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.902365019499!2d90.3910631154318!3d23.750903384589106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8c7f6e9a3d9%3A0x2ba621a7eb1e6a2c!2sDhaka!5e0!3m2!1sen!2sbd!4v1619512692696!5m2!1sen!2sbd"
+                    width="100%"
+                    height="100%"
+                    style="border-radius: 8px"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  >
+                  </iframe>
+
+                  <img
+                    class="position-absolute end-0"
+                    style="bottom: 16px; left: 16px"
+                    src="/img/subtract.png"
+                    alt=""
+                  />
+                </div>
+                <div class="d-flex align-content-center gap-2 mt-3">
+                  <span>
+                    <img src="/img/subtract.png" alt="" />
+                  </span>
+                  <span style="color: #080808"
+                    >Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s.</span
+                  >
+                </div>
+                <div class="d-flex align-content-center gap-2 mt-3">
+                  <span>
+                    <img src="/img/subtract.png" alt="" />
+                  </span>
+                  <span style="color: #080808"
+                    >36,762 people likethis, including 25 of your friends</span
+                  >
+                </div>
+             
+                <div class="d-flex align-content-center gap-4 mt-3">
+                  <span>
+                   
+                  </span>
+                  <div class="profile-list">
+                    <img src="https://i.ibb.co/0Y2Fb7h/1.png" alt="1" class="profile-img">
+                    <img src="https://i.ibb.co/LzM4bXD/2.png" alt="2" class="profile-img">
+                    <img src="https://i.ibb.co/yPjxyZJ/3.png" alt="3" class="profile-img">
+                    <img src="https://i.ibb.co/gMNB1NF/4.png" alt="4" class="profile-img">
+                    <img src="https://i.ibb.co/xSHdKLn/5.png" alt="5" class="profile-img">
+                    <img src="https://i.ibb.co/1Mpd7W0/6.png" alt="6" class="profile-img">
+                    <img src="https://i.ibb.co/2KQDhTp/7.png" alt="7" class="profile-img">
+                  </div>
+                </div>
+                <div class="d-flex align-content-center gap-2 mt-3">
+                  <span>
+                    <img src="/img/follow.png" alt="" />
+                  </span>
+                  <span style="color: #080808"
+                    >37,822 people follow this</span
+                  >
+                </div>
+                <div class="d-flex align-content-center gap-2 mt-3">
+                  <span>
+                    <img src="/img/location.png" alt="" />
+                  </span>
+                  <span style="color: #080808"
+                    >43 people checked in here</span
+                  >
+                </div>
+                <div class="d-flex align-content-center gap-2 mt-3">
+                  <span>
+                    <img src="/img/website.png" alt="" />
+                  </span>
+                  <span style="color: #080808"
+                    ><a class="text-decoration-none" href="https://www.website.com/">https://www.website.com/</a></span
+                  >
+                </div>
+                <div class="d-flex align-content-center gap-2 mt-3">
+                  <span>
+                    <img src="/img/phone.png" alt="" />
+                  </span>
+                  <span style="color: #080808"
+                    >012 345 6789</span
+                  >
+                </div>
+                <div class="d-flex align-content-center gap-2 mt-3">
+                  <span>
+                    <img src="/img/email.png" alt="" />
+                  </span>
+                 <div>
+                  <span style="color: #080808"
+                  >Away</span
+                >
+                <br>
+                <a class="text-decoration-none" href="">Send message</a>
+                 </div>
+                </div>
+                <div class="d-flex align-content-center gap-2 mt-3">
+                  <span>
+                    <img src="/img/email2.png" alt="" />
+                  </span>
+                  <span style="color: #080808"
+                    ><a class="text-decoration-none" href="https://www.website.com/">email@website.com</a></span
+                  >
+                </div>
+                <div class="d-flex align-content-center gap-2 mt-3">
+                  <span>
+                    <img src="/img/time.png" alt="" />
+                  </span>
+                 <div>
+                  <span style="color: #DE3F4F"
+                  >Closed now</span
+                >
+                <br>
+                <a class="text-decoration-none" href="">08 - 17:00</a>
+                 </div>
+                </div>
+                <div class="d-flex align-content-center gap-2 mt-3">
+                  <span>
+                    <img src="/img/industry.png" alt="" />
+                  </span>
+                  <a href="#" class="text-decoration-none"
+                    >Industry - Industry</a
+                  >
+                </div>
+              </div>
+              <div  class="bg-white p-3 mt-3"
+              style="
+                box-shadow: 0px 1px 2px 0px #00000033;
+                border-radius: 8px;
+              ">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h3 class="fw-bold" style="color: #080808; font-size: 20px">
+                      About
+                    </h3>
+                    <div>
+                      <span
+                        style="font-size: 15px; font-weight: 500; color: #0572ef"
+                        >See all</span
+                      >
+                    </div>
+                  </div>
+                <div class="row g-1">
+                  <div class="col-4" >
+                    <img class="h-100 w-100" style="border-top-left-radius: 8px" src="/img//banner.jpg" alt="">
+                  </div>
+                  <div class="col-4">
+                    <img class="h-100 w-100"  src="/img//banner.jpg" alt="">
+                  </div>
+                  <div class="col-4"><img class="h-100 w-100" style="border-top-right-radius: 8px" src="/img//banner.jpg" alt=""></div>
+                  <div class="col-4"><img class="h-100 w-100" style="border-bottom-left-radius: 8px" src="/img//banner.jpg" alt=""></div>
+                  <div class="col-4">
+                    <img class="h-100 w-100"  src="/img//banner.jpg" alt="">
+                  </div>
+                  <div class="col-4"><img class="h-100 w-100" style="border-bottom-right-radius: 8px" src="/img//banner.jpg" alt=""></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-7 mt-3">
+              <div
+                class="bg-white p-3 pt-2"
+                style="
+                  box-shadow: 0px 1px 2px 0px #00000033;
+                  border-radius: 8px;
+                "
+              >
+                right
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
