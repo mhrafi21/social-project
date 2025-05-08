@@ -78,10 +78,11 @@ body {
   transition: all 0.3s ease-in-out;
   z-index: 10;
   gap: 6px;
+  left: 0;
 }
 
 .emoji img {
-  width: 24px;
+  height: 24px;
   transition: all 500ms ease-in-out;
 }
 
@@ -118,5 +119,7 @@ body {
 }
 
 /* design for emoji */
+
+
 
 
