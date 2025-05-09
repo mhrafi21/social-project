@@ -1,5 +1,16 @@
 * {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
+}
+
+:root{
+  --blur-color: #0572ef;
+  --light-blur: #19afff;
+  --box-shadow-color: #00000033;
+  --light-color: #e5e6eb;
+  --gray-color: #66676b;
+  --white-color: #FFFFFF;
 }
 
 html {
@@ -11,11 +22,17 @@ body {
   background-color: #f2f4f7;
   color: #09090a;
   font-size: clamp(15px, 2vw, 16px);
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.4 !important;
   letter-spacing: 0.1px;
   width: 100% !important;
 
+}
+.custom-border-radius{
+  border-radius: 8px;
+}
+.custom-box-shadow {
+  box-shadow: 0px 1px 2px 0px #00000033;
 }
 .sticky-top-custom {
   position: sticky;
@@ -123,3 +140,13 @@ body {
 
 
 
+/* search page */
+.container-custom {
+  max-width: 1260px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+
+/* search page */
