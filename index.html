@@ -107,7 +107,10 @@
           </div>
         </div>
         <div class="w-50 d-none d-lg-block">
-          <div class="d-flex justify-content-evenly" style="margin-right: 150px;">
+          <div
+            class="d-flex justify-content-evenly"
+            style="margin-right: 150px"
+          >
             <div>
               <a href="/index.html"> <img src="/img/home.png" alt="" /></a>
             </div>
@@ -128,9 +131,12 @@
 
         <div>
           <div class="d-flex">
-            <ul class="navbar-nav flex-row align-items-center" style="gap:11.9px">
+            <ul
+              class="navbar-nav flex-row align-items-center"
+              style="gap: 11.9px"
+            >
               <li
-                class="nav-item position-relative text-center rounded-circle "
+                class="nav-item position-relative text-center rounded-circle"
                 style="width: 40px; height: 40px; background-color: #e5e6eb"
               >
                 <a
@@ -145,7 +151,7 @@
                 </a>
               </li>
 
-              <li class="nav-item dropdown position-relative ">
+              <li class="nav-item position-relative">
                 <a
                   href="#"
                   class="nav-link d-flex align-items-center justify-content-center p-0"
@@ -173,9 +179,11 @@
                     ></path>
                   </svg>
                   <span
-                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill"
+                    class="position-absolute translate-middle badge rounded-pill"
                     style="
                       width: 20px;
+                      top: 4px;
+                      right: -16px;
                       height: 20px;
                       background-color: #de3f4f;
                       font-size: 12px;
@@ -185,29 +193,113 @@
                   </span>
                 </a>
                 <ul
-                  class="dropdown-menu dropdown-menu-end mt-2 position-absolute"
+                  class="dropdown-menu w dropdown-menu-end dropdown position-absolute mt-2"
                   aria-labelledby="notificationDropdown"
-                  style="min-width: 250px"
+                  style="
+                    width: 300px;
+                    padding: 0;
+                    right: -104px;
+                    overflow: hidden;
+                  "
                 >
-                  <li><h6 class="dropdown-header">Notifications</h6></li>
+                  <li class="px-3 pt-3 pb-3 border-bottom">
+                    <h6 class="mb-0 fw-semibold text-dark">Notifications</h6>
+                  </li>
+
                   <li>
-                    <a class="dropdown-item" href="#"
-                      >🔔 New booking received</a
+                    <a
+                      class="dropdown-item d-flex align-items-start px-3 pt-3 gap-3"
+                      href="#"
+                      style="white-space: normal"
                     >
+                      <div style="height: 40.9px; width: 40.9px">
+                        <img
+                          class="h-100 w-100 object-fit-cover rounded-circle"
+                          src="/img/banner.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <div class="fw-medium">Khalakuzzaman Khan</div>
+                        <small class="text-muted">2 minutes ago</small>
+                      </div>
+                    </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">📦 Order #1234 shipped</a>
+                    <a
+                      class="dropdown-item d-flex align-items-start px-3 pt-3 gap-3"
+                      href="#"
+                      style="white-space: normal"
+                    >
+                      <div style="height: 40.9px; width: 40.9px">
+                        <img
+                          class="h-100 w-100 object-fit-cover rounded-circle"
+                          src="/img/banner.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <div class="fw-medium">Khalakuzzaman Khan</div>
+                        <small class="text-muted">2 minutes ago</small>
+                      </div>
+                    </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#"
-                      >📧 New message from Mahdi</a
+                    <a
+                      class="dropdown-item d-flex align-items-start px-3 pt-3 gap-3"
+                      href="#"
+                      style="white-space: normal"
                     >
+                      <div style="height: 40.9px; width: 40.9px">
+                        <img
+                          class="h-100 w-100 object-fit-cover rounded-circle"
+                          src="/img/banner.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <div class="fw-medium">Khalakuzzaman Khan</div>
+                        <small class="text-muted">2 minutes ago</small>
+                      </div>
+                    </a>
                   </li>
-                  <li><hr class="dropdown-divider" /></li>
                   <li>
-                    <a class="dropdown-item text-center text-primary" href="#"
-                      >View all</a
+                    <a
+                      class="dropdown-item d-flex align-items-start px-3 pt-3 gap-3"
+                      href="#"
+                      style="white-space: normal"
                     >
+                      <div style="height: 40.9px; width: 40.9px">
+                        <img
+                          class="h-100 w-100 object-fit-cover rounded-circle"
+                          src="/img/banner.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <div class="fw-medium">Khalakuzzaman Khan</div>
+                        <small class="text-muted">2 minutes ago</small>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item d-flex align-items-start px-3 pt-3 gap-3"
+                      href="#"
+                      style="white-space: normal"
+                    >
+                      <div style="height: 40.9px; width: 40.9px">
+                        <img
+                          class="h-100 w-100 object-fit-cover rounded-circle"
+                          src="/img/banner.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <div class="fw-medium">Khalakuzzaman Khan</div>
+                        <small class="text-muted">2 minutes ago</small>
+                      </div>
+                    </a>
                   </li>
                 </ul>
               </li>
@@ -306,7 +398,7 @@
                               class="fw-medium"
                               style="font-size: 16px; line-height: 0.7"
                             >
-                              Mahdi Hasan Rafi
+                              Khalakuzzaman Khan
                             </h5>
                           </div>
                         </div>
@@ -315,9 +407,9 @@
 
                     <!-- Navigation Links -->
                     <ul class="nav flex-column">
-                      <li class="nav-item mb-3 bg-hover-light active ">
+                      <li class="nav-item mb-3 bg-hover-light active">
                         <a
-                          class="d-flex  text-decoration-none align-items-center"
+                          class="d-flex text-decoration-none align-items-center"
                           href="/friends.html"
                           style="color: var(--gray-color); font-size: 15px"
                         >
@@ -533,7 +625,7 @@
                             class="fw-medium"
                             style="font-size: 16px; line-height: 0.7"
                           >
-                            Mahdi Hasan Rafi
+                            Khalakuzzaman Khan
                           </h5>
                           <div class="d-flex align-items-center gap-2">
                             <span
@@ -704,7 +796,7 @@
                                               line-height: 0.7;
                                             "
                                           >
-                                            Mahdi Hasan Rafi
+                                            Khalakuzzaman Khan
                                           </h5>
                                           <div
                                             class="d-flex align-items-center gap-2"
@@ -1020,7 +1112,7 @@
                             class="fw-medium"
                             style="font-size: 16px; line-height: 0.7"
                           >
-                            Mahdi Hasan Rafi
+                            Khalakuzzaman Khan
                           </h5>
                           <div class="d-flex align-items-center gap-2">
                             <span
@@ -1191,7 +1283,7 @@
                                               line-height: 0.7;
                                             "
                                           >
-                                            Mahdi Hasan Rafi
+                                            Khalakuzzaman Khan
                                           </h5>
                                           <div
                                             class="d-flex align-items-center gap-2"
@@ -1507,7 +1599,7 @@
                             class="fw-medium"
                             style="font-size: 16px; line-height: 0.7"
                           >
-                            Mahdi Hasan Rafi
+                            Khalakuzzaman Khan
                           </h5>
                           <div class="d-flex align-items-center gap-2">
                             <span
@@ -1678,7 +1770,7 @@
                                               line-height: 0.7;
                                             "
                                           >
-                                            Mahdi Hasan Rafi
+                                            Khalakuzzaman Khan
                                           </h5>
                                           <div
                                             class="d-flex align-items-center gap-2"
@@ -1994,7 +2086,7 @@
                             class="fw-medium"
                             style="font-size: 16px; line-height: 0.7"
                           >
-                            Mahdi Hasan Rafi
+                            Khalakuzzaman Khan
                           </h5>
                           <div class="d-flex align-items-center gap-2">
                             <span
@@ -2165,7 +2257,7 @@
                                               line-height: 0.7;
                                             "
                                           >
-                                            Mahdi Hasan Rafi
+                                            Khalakuzzaman Khan
                                           </h5>
                                           <div
                                             class="d-flex align-items-center gap-2"
@@ -2481,7 +2573,7 @@
                             class="fw-medium"
                             style="font-size: 16px; line-height: 0.7"
                           >
-                            Mahdi Hasan Rafi
+                            Khalakuzzaman Khan
                           </h5>
                           <div class="d-flex align-items-center gap-2">
                             <span
@@ -2652,7 +2744,7 @@
                                               line-height: 0.7;
                                             "
                                           >
-                                            Mahdi Hasan Rafi
+                                            Khalakuzzaman Khan
                                           </h5>
                                           <div
                                             class="d-flex align-items-center gap-2"
@@ -2945,11 +3037,11 @@
               </div>
               <!-- card end -->
             </div>
-            <div class="col  d-lg-block d-none sticky-right "
-            >
-              <div class="p-3 bg-white h-100 custom-box-shadow custom-border-radius">
+            <div class="col d-lg-block d-none sticky-right">
+              <div
+                class="p-3 bg-white h-100 custom-box-shadow custom-border-radius"
+              >
                 <h3 class="fw-bold" style="font-size: 20px">Birthdays</h3>
-               
               </div>
             </div>
           </div>
