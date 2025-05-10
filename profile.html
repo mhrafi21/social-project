@@ -21,14 +21,9 @@
   </head>
 
   <body>
-    <nav
-      class="navbar position-fixed d-flex flex-wrap end-0 start-0 navbar-expand-lg"
-      style="
-        height: 61px;
-        box-shadow: 0px 1px 2px 0px var(--box-shadow-color);
-        z-index: 500;
-        background-color: var(--white-color);
-      "
+     <nav
+      class="navbar position-fixed d-flex flex-wrap end-0 start-0 navbar-expand-lg bg-light"
+      style="height: 61px; box-shadow: 0px 1px 2px 0px #00000033; z-index: 500"
     >
       <div
         class="d-flex w-100 h-full align-items-center justify-content-between"
@@ -37,16 +32,11 @@
           <div class="me-2">
             <a
               class="ms-3 position-relative d-flex align-items-center justify-content-center"
-              style="
-                background: linear-gradient(#0062e0, #19afff);
-                width: 40px;
-                height: 39.78px;
-                border-radius: 50%;
-              "
-              href="#"
+              style="width: 40px; height: 39.78px; border-radius: 50%"
+              href="/"
             >
               <img
-                class="position-absolute h-100 w-100 object-fit-cover bottom-0"
+                class="position-absolute bottom-0 w-100 h-100 object-fit-cover"
                 src="/img/logo_pet_dark.png"
                 alt=""
               />
@@ -68,7 +58,7 @@
               style="
                 width: 40px;
                 height: 40px;
-                background-color: var(--light-color);
+                background-color: #e5e6eb;
                 border-radius: 50%;
               "
             >
@@ -116,8 +106,8 @@
             </div>
           </div>
         </div>
-        <div class="w-100 d-none d-md-block">
-          <div class="d-flex justify-content-evenly">
+        <div class="w-50 d-none d-lg-block">
+          <div class="d-flex justify-content-evenly" style="margin-right: 150px;">
             <div>
               <a href="/index.html"> <img src="/img/home.png" alt="" /></a>
             </div>
@@ -138,14 +128,10 @@
 
         <div>
           <div class="d-flex">
-            <ul class="navbar-nav flex-row align-items-center">
+            <ul class="navbar-nav flex-row align-items-center" style="gap:11.9px">
               <li
-                class="nav-item position-relative text-center rounded-circle me-2"
-                style="
-                  width: 40px;
-                  height: 40px;
-                  background-color: var(--light-color);
-                "
+                class="nav-item position-relative text-center rounded-circle "
+                style="width: 40px; height: 40px; background-color: #e5e6eb"
               >
                 <a
                   class="nav-link d-flex justify-content-center align-items-center w-100 h-100"
@@ -159,7 +145,7 @@
                 </a>
               </li>
 
-              <li class="nav-item dropdown position-relative me-2">
+              <li class="nav-item dropdown position-relative ">
                 <a
                   href="#"
                   class="nav-link d-flex align-items-center justify-content-center p-0"
@@ -170,7 +156,7 @@
                   style="
                     width: 40px;
                     height: 40px;
-                    background-color: var(--light-color);
+                    background-color: #e5e6eb;
                     border-radius: 50%;
                     position: relative;
                   "
@@ -179,7 +165,7 @@
                     viewBox="0 0 24 24"
                     width="16"
                     height="16"
-                    fill="var(--gray-color)"
+                    fill="#66676B"
                     aria-hidden="true"
                   >
                     <path
@@ -225,13 +211,10 @@
                   </li>
                 </ul>
               </li>
+
               <li
-                class="nav-item position-relative text-center rounded-circle me-2"
-                style="
-                  width: 40px;
-                  height: 40px;
-                  background-color: var(--light-color);
-                "
+                class="nav-item position-relative text-center rounded-circle"
+                style="width: 40px; height: 40px; background-color: #e5e6eb"
               >
                 <a
                   class="nav-link d-flex justify-content-center align-items-center w-100 h-100"
@@ -241,7 +224,7 @@
                     viewBox="0 0 12 12"
                     width="17.14"
                     height="17.14"
-                    fill="var(--gray-color)"
+                    fill="#66676B"
                     aria-hidden="true"
                     class="xfx01vb x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq"
                   >
@@ -266,7 +249,7 @@
                   style="
                     width: 40px;
                     height: 40px;
-                    background-color: var(--light-color);
+                    background-color: #e5e6eb;
                     border-radius: 50%;
                   "
                 >
@@ -457,41 +440,45 @@
               <div
                 class="d-flex flex-wrap justify-content-center gap-3 mt-lg-0 mt-3 align-items-center"
               >
-                <span
+                <button
+                class="custom-btn"
                   style="
-                    color: var(--blur-color);
-                    padding: 6px 16px;
+                    color: var(--blue-color);
+                  
                     background-color: #e9f3fe;
-                    border-radius: 6px;
+                
                   "
                 >
                   <img src="/img/like.png" alt="" />
                   Liked
-                </span>
-                <span
+                </button>
+                <button
+                class="custom-btn"
                   style="
-                    padding: 6px 16px;
+             
                     background-color: var(--light-color);
-                    border-radius: 6px;
+               
                   "
                 >
                   <img src="/img/messenger.png" alt="" />
                   Message
-                </span>
-                <span
+                </button>
+                <button
+                class="custom-btn"
                   style="
-                    padding: 6px 16px;
+                  
                     background-color: var(--light-color);
-                    border-radius: 6px;
+                   
                   "
                 >
                   <img src="/img/search.png" alt="" />
-                </span>
+                </button>
                 <div
+                  class="custom-btn"
                   style="
-                    padding: 6px 16px;
+              
                     background-color: var(--light-color);
-                    border-radius: 6px;
+                   
                   "
                 >
                   <img src="/img/dot.png" alt="" />
@@ -514,8 +501,8 @@
             >
               <li
                 style="
-                  border-bottom: 2px solid var(--blur-color);
-                  color: var(--blur-color);
+                  border-bottom: 2px solid var(--blue-color);
+                  color: var(--blue-color);
                   padding: 24px 0px;
                 "
               >
@@ -586,7 +573,7 @@
                         style="
                           font-size: 15px;
                           font-weight: 500;
-                          color: var(--blur-color);
+                          color: var(--blue-color);
                         "
                         >See all</span
                       >
@@ -801,7 +788,7 @@
                         style="
                           font-size: 15px;
                           font-weight: 500;
-                          color: var(--blur-color);
+                          color: var(--blue-color);
                         "
                         >See all</span
                       >
@@ -877,7 +864,7 @@
                         style="
                           font-size: 15px;
                           font-weight: 500;
-                          color: var(--blur-color);
+                          color: var(--blue-color);
                         "
                         >See all</span
                       >
@@ -975,7 +962,7 @@
                         style="
                           font-size: 15px;
                           font-weight: 500;
-                          color: var(--blur-color);
+                          color: var(--blue-color);
                         "
                         >See all</span
                       >

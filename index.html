@@ -33,7 +33,7 @@
             <a
               class="ms-3 position-relative d-flex align-items-center justify-content-center"
               style="width: 40px; height: 39.78px; border-radius: 50%"
-              href="#"
+              href="/"
             >
               <img
                 class="position-absolute bottom-0 w-100 h-100 object-fit-cover"
@@ -106,8 +106,8 @@
             </div>
           </div>
         </div>
-        <div class="w-100 d-none d-md-block">
-          <div class="d-flex justify-content-center" style="gap: 100px">
+        <div class="w-50 d-none d-lg-block">
+          <div class="d-flex justify-content-evenly" style="margin-right: 150px;">
             <div>
               <a href="/index.html"> <img src="/img/home.png" alt="" /></a>
             </div>
@@ -128,9 +128,9 @@
 
         <div>
           <div class="d-flex">
-            <ul class="navbar-nav flex-row align-items-center">
+            <ul class="navbar-nav flex-row align-items-center" style="gap:11.9px">
               <li
-                class="nav-item position-relative text-center rounded-circle me-2"
+                class="nav-item position-relative text-center rounded-circle "
                 style="width: 40px; height: 40px; background-color: #e5e6eb"
               >
                 <a
@@ -145,7 +145,7 @@
                 </a>
               </li>
 
-              <li class="nav-item dropdown position-relative me-2">
+              <li class="nav-item dropdown position-relative ">
                 <a
                   href="#"
                   class="nav-link d-flex align-items-center justify-content-center p-0"
@@ -213,7 +213,7 @@
               </li>
 
               <li
-                class="nav-item position-relative text-center rounded-circle me-2"
+                class="nav-item position-relative text-center rounded-circle"
                 style="width: 40px; height: 40px; background-color: #e5e6eb"
               >
                 <a
@@ -278,11 +278,11 @@
     </nav>
 
     <main>
-      <div class="" style="padding-top: 80px">
-        <div class="container-main">
-          <div class="row g-3 position-relative">
+      <div class="main-container" style="padding-top: 80px">
+        <div class="">
+          <div class="row g-3">
             <!-- Left Sidebar Column -->
-            <div class="col-md-3 d-lg-block d-none col-lg-3 ">
+            <div class="col d-lg-block d-none">
               <div class="sticky-top z-0">
                 <div class="">
                   <!-- Sidebar Content -->
@@ -291,8 +291,8 @@
                     style="height: 100vh"
                   >
                     <!-- User Profile -->
-                    <div class="d-flex align-items-center mb-4">
-                      <div class="ms-2">
+                    <div class="d-flex align-items-center mb-3">
+                      <div class="">
                         <div class="d-flex gap-2 align-items-center">
                           <div style="height: 40.9px; width: 40.9px">
                             <img
@@ -315,173 +315,119 @@
 
                     <!-- Navigation Links -->
                     <ul class="nav flex-column">
-                      <li class="nav-item mb-2">
+                      <li class="nav-item mb-3 bg-hover-light active ">
                         <a
-                          class="nav-link d-flex align-items-center"
-                          href="#"
+                          class="d-flex  text-decoration-none align-items-center"
+                          href="/friends.html"
                           style="color: var(--gray-color); font-size: 15px"
                         >
-                          <img
-                            src="/img/friends.png"
-                            alt="Friends"
-                            class="me-2"
-                            style="width: 24px"
-                          />
+                          <span
+                            class="d-flex me-2 align-items-center justify-content-center"
+                            style="
+                              height: 40.9px;
+                              width: 40.9px;
+                              background-color: var(--light-color);
+                              border-radius: 50%;
+                            "
+                          >
+                            <img
+                              class="object-fit-cover"
+                              src="/img/friends.png"
+                              alt="Friends"
+                              class=""
+                              style="width: 24px"
+                            />
+                          </span>
                           Friends
                         </a>
                       </li>
-                      <li class="nav-item mb-2">
+
+                      <li class="nav-item mb-3 bg-hover-light">
                         <a
-                          class="nav-link d-flex align-items-center"
+                          class="d-flex text-decoration-none align-items-center"
                           href="#"
                           style="color: var(--gray-color); font-size: 15px"
                         >
-                          <img
-                            src="/img/memories.png"
-                            alt="Memories"
-                            class="me-2"
-                            style="width: 24px"
-                          />
-                          Memories
-                        </a>
-                      </li>
-                      <li class="nav-item mb-2">
-                        <a
-                          class="nav-link d-flex align-items-center"
-                          href="#"
-                          style="color: var(--gray-color); font-size: 15px"
-                        >
-                          <img
-                            src="/img/saved.png"
-                            alt="Saved"
-                            class="me-2"
-                            style="width: 24px"
-                          />
-                          Saved
-                        </a>
-                      </li>
-                      <li class="nav-item mb-2">
-                        <a
-                          class="nav-link d-flex align-items-center"
-                          href="#"
-                          style="color: var(--gray-color); font-size: 15px"
-                        >
-                          <img
-                            src="/img/groups.png"
-                            alt="Groups"
-                            class="me-2"
-                            style="width: 24px"
-                          />
-                          Groups
-                        </a>
-                      </li>
-                      <li class="nav-item mb-2">
-                        <a
-                          class="nav-link d-flex align-items-center"
-                          href="#"
-                          style="color: var(--gray-color); font-size: 15px"
-                        >
-                          <img
-                            src="/img/video.png"
-                            alt="Video"
-                            class="me-2"
-                            style="width: 24px"
-                          />
+                          <span
+                            class="d-flex me-2 align-items-center justify-content-center"
+                            style="
+                              height: 40.9px;
+                              width: 40.9px;
+                              background-color: var(--light-color);
+                              border-radius: 50%;
+                            "
+                          >
+                            <img
+                              class="object-fit-cover"
+                              src="/img/video.png"
+                              alt="Video"
+                              class=""
+                              style="width: 24px"
+                            />
+                          </span>
                           Video
                         </a>
                       </li>
-                      <li class="nav-item">
+                      <li class="nav-item mb-3 bg-hover-light">
                         <a
-                          class="nav-link d-flex align-items-center"
-                          href="#"
+                          class="d-flex text-decoration-none align-items-center"
+                          href="/event.html"
                           style="color: var(--gray-color); font-size: 15px"
                         >
-                          <img
-                            src="/img/marketplace.png"
-                            alt="Marketplace"
-                            class="me-2"
-                            style="width: 24px"
-                          />
+                          <span
+                            class="d-flex me-2 align-items-center justify-content-center"
+                            style="
+                              height: 40.9px;
+                              width: 40.9px;
+                              background-color: var(--light-color);
+                              border-radius: 50%;
+                            "
+                          >
+                            <img
+                              class="object-fit-cover"
+                              src="/img/video.png"
+                              alt="Video"
+                              class=""
+                              style="width: 24px"
+                            />
+                          </span>
+                          Event
+                        </a>
+                      </li>
+                      <li class="nav-item mb-3 bg-hover-light">
+                        <a
+                          class="d-flex text-decoration-none align-items-center"
+                          href="/marketplace.html"
+                          style="color: var(--gray-color); font-size: 15px"
+                        >
+                          <span
+                            class="d-flex me-2 align-items-center justify-content-center"
+                            style="
+                              height: 40.9px;
+                              width: 40.9px;
+                              background-color: var(--light-color);
+                              border-radius: 50%;
+                            "
+                          >
+                            <img
+                              class="object-fit-cover"
+                              src="/img/marketplace.png"
+                              alt="Marketplace"
+                              class="me-2"
+                              style="width: 24px"
+                            />
+                          </span>
                           Marketplace
                         </a>
                       </li>
                     </ul>
-
-                    <!-- Shortcuts Heading -->
-                    <div class="mt-4 pt-2 border-top">
-                      <h6
-                        class="fw-semibold"
-                        style="font-size: 17px; color: #65676b"
-                      >
-                        Your Shortcuts
-                      </h6>
-                      <ul class="nav flex-column mt-2">
-                        <li class="nav-item mb-2">
-                          <a
-                            class="nav-link d-flex align-items-center"
-                            href="#"
-                            style="color: var(--gray-color); font-size: 15px"
-                          >
-                            <img
-                              src="/img/banner.jpg"
-                              alt="Group 1"
-                              class="me-2 rounded"
-                              style="
-                                width: 24px;
-                                height: 24px;
-                                object-fit: cover;
-                              "
-                            />
-                            Group 1
-                          </a>
-                        </li>
-                        <li class="nav-item mb-2">
-                          <a
-                            class="nav-link d-flex align-items-center"
-                            href="#"
-                            style="color: var(--gray-color); font-size: 15px"
-                          >
-                            <img
-                              src="/img/banner.jpg"
-                              alt="Group 2"
-                              class="me-2 rounded"
-                              style="
-                                width: 24px;
-                                height: 24px;
-                                object-fit: cover;
-                              "
-                            />
-                            Group 2
-                          </a>
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="nav-link d-flex align-items-center"
-                            href="#"
-                            style="color: var(--gray-color); font-size: 15px"
-                          >
-                            <img
-                              src="/img/banner.jpg"
-                              alt="Page 1"
-                              class="me-2 rounded"
-                              style="
-                                width: 24px;
-                                height: 24px;
-                                object-fit: cover;
-                              "
-                            />
-                            Page 1
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
                   </div>
                 </div>
               </div>
             </div>
 
             <!-- Main Content Column (adjusted from col-7 to col-md-9 col-lg-10) -->
-            <div class="col-lg-6 col-12 ms-md-auto me-md-auto">
+            <div class="col-lg-6 col-sm-8 mx-auto">
               <div class="mb-3">
                 <div
                   class="bg-white p-3 custom-border-radius custom-box-shadow mb-3"
@@ -499,18 +445,10 @@
                       </div>
                       <div class="w-100">
                         <button
-                          style="
-                            height: 41px;
-                            width: 100%;
-                            background-color: #e5e6eb;
-                            border: none;
-                            outline: none;
-                            border-radius: 6px;
-                            font-size: 17px;
-                            font-weight: 500;
-                          "
+                          class="custom-border-radius custom-btn"
+                          style="width: 100%; background-color: #e5e6eb"
                         >
-                          Create Post
+                          Create post
                         </button>
                       </div>
                     </div>
@@ -3006,45 +2944,12 @@
                 </div>
               </div>
               <!-- card end -->
-
             </div>
-            <div
-              class="col-md-3 col-lg-3 d-lg-block d-none bg-white custom-border-radius sticky-right custom-box-shadow"
+            <div class="col  d-lg-block d-none sticky-right "
             >
-              <div class="p-3">
-                <h6 class="fw-semibold text-secondary mb-2">Trending</h6>
-                <ul class="list-unstyled">
-                  <li class="mb-2">
-                    <a
-                      href="#"
-                      style="
-                        text-decoration: none;
-                        color: var(--gray-color);
-                        font-size: 14px;
-                      "
-                    >
-                      #TrendingTopic1
-                    </a>
-                    <p class="mb-0 text-secondary" style="font-size: 12px">
-                      100K+ Posts
-                    </p>
-                  </li>
-                  <li class="mb-2">
-                    <a
-                      href="#"
-                      style="
-                        text-decoration: none;
-                        color: var(--gray-color);
-                        font-size: 14px;
-                      "
-                    >
-                      #AnotherTrend
-                    </a>
-                    <p class="mb-0 text-secondary" style="font-size: 12px">
-                      50K+ Mentions
-                    </p>
-                  </li>
-                </ul>
+              <div class="p-3 bg-white h-100 custom-box-shadow custom-border-radius">
+                <h3 class="fw-bold" style="font-size: 20px">Birthdays</h3>
+               
               </div>
             </div>
           </div>
