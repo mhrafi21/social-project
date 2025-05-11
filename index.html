@@ -9,7 +9,7 @@
       rel="stylesheet"
     />
 
-      <!-- font awesome -->
+    <!-- font awesome -->
 
     <link
       rel="stylesheet"
@@ -29,10 +29,9 @@
   </head>
 
   <body>
-    <div >
+    <div>
       <nav
-        class="navbar main-container position-fixed d-flex flex-wrap end-0 start-0 navbar-expand-lg bg-light"
-        style="height: 61px; box-shadow: 0px 1px 2px 0px #00000033; z-index: 500"
+        class="navbar header-navbar main-container position-fixed d-flex flex-wrap end-0 start-0 navbar-expand-lg bg-light"
       >
         <div
           class="d-flex w-100 h-full align-items-center justify-content-between"
@@ -40,8 +39,7 @@
           <div class="d-flex align-items-center">
             <div class="me-2">
               <a
-                class="ms-3 position-relative d-flex align-items-center justify-content-center"
-                style="width: 40px; height: 39.78px; border-radius: 50%"
+                class="ms-3 logo-box position-relative d-flex align-items-center justify-content-center"
                 href="/"
               >
                 <img
@@ -51,61 +49,12 @@
                 />
               </a>
             </div>
-  
+
             <!-- Search Icon with Responsive Dropdown (Mobile Only) -->
-            <li
-              class="nav-item dropdown d-block d-lg-none me-2 position-relative"
-              style="z-index: 1050"
-            >
-              <a
-                class="nav-link d-flex align-items-center justify-content-center p-0"
-                href="#"
-                id="mobileSearchDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-                style="
-                  width: 40px;
-                  height: 40px;
-                  background-color: #e5e6eb;
-                  border-radius: 50%;
-                "
-              >
-                <img
-                  src="/img/search.png"
-                  alt="Search"
-                  style="width: 18px; height: 18px"
-                />
-              </a>
-              <div
-                class="dropdown-menu p-2 w-100"
-                aria-labelledby="mobileSearchDropdown"
-                style="left: 0; right: 0"
-              >
-                <form class="d-flex">
-                  <input
-                    class="form-control me-2"
-                    type="search"
-                    placeholder="Search..."
-                    aria-label="Search"
-                  />
-                </form>
-              </div>
-            </li>
-  
+
             <div class="input-group d-none d-lg-block">
               <div class="position-relative">
-                <img
-                  style="
-                    position: absolute;
-                    height: 16px;
-                    width: 16px;
-                    top: 30%;
-                    left: 10px;
-                  "
-                  src="/img/search.png"
-                  alt=""
-                />
+                <img class="img-icon" src="/img/search.png" alt="" />
                 <input
                   type="text"
                   style="border-radius: 100px; width: 281px"
@@ -116,65 +65,49 @@
             </div>
           </div>
           <div class="w-50 d-none d-lg-block">
-            <div
-              class="d-flex justify-content-evenly"
-              style="margin-right: 150px"
-            >
+            <div class="d-flex middle-col justify-content-evenly">
               <div>
-                <a href="/index.html"> <i style="color: var(--gray-color); font-size: 24px;"  class="fa-solid fa-house"></i></a>
+                <a href="/index.html"> <i class="fa-solid fa-house"></i></a>
               </div>
               <div>
-                <a href="/#"><i style="color: var(--gray-color); font-size: 24px;" class="fa-brands fa-youtube"></i></a>
+                <a href="/#"><i class="fa-brands fa-youtube"></i></a>
               </div>
               <div>
-                <a href=""><i style="color: var(--gray-color); font-size: 24px;" class="fa-solid fa-shop"></i></a>
+                <a href=""><i class="fa-solid fa-shop"></i></a>
               </div>
               <div>
-                <a href=""><i style="color: var(--gray-color); font-size: 24px;" class="fa-solid fa-user-group"></i></a>
+                <a href=""><i class="fa-solid fa-user-group"></i></a>
               </div>
               <div>
-                  <a href=""><i style="color: var(--gray-color); font-size: 24px;" class="fa-solid fa-calendar"></i></a>
+                <a href=""><i class="fa-solid fa-calendar"></i></a>
               </div>
             </div>
           </div>
-  
+
           <div>
             <div class="d-flex">
               <ul
-                class="navbar-nav flex-row align-items-center"
-                style="gap: 11.9px"
+                class="navbar-nav right-navbar-gap flex-row align-items-center"
               >
                 <li
-                  class="nav-item position-relative text-center rounded-circle"
-                  style="width: 40px; height: 40px; background-color: #e5e6eb"
+                  class="nav-item right-navbar-li position-relative text-center rounded-circle"
                 >
                   <a
                     class="nav-link d-flex justify-content-center align-items-center w-100 h-100"
                     href="#"
                   >
-                    <img
-                      src="/img/union.png"
-                      style="width: 15px; height: 15px"
-                      alt=""
-                    />
+                    <img class="dropdown-icon" src="/img/union.png" alt="" />
                   </a>
                 </li>
-  
+
                 <li class="nav-item position-relative">
                   <a
                     href="#"
-                    class="nav-link d-flex align-items-center justify-content-center p-0"
+                    class="nav-link d-flex right-navbar-li rounded-circle align-items-center position-relative justify-content-center p-0"
                     id="notificationDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
-                    style="
-                      width: 40px;
-                      height: 40px;
-                      background-color: #e5e6eb;
-                      border-radius: 50%;
-                      position: relative;
-                    "
                   >
                     <svg
                       viewBox="0 0 24 24"
@@ -188,40 +121,61 @@
                       ></path>
                     </svg>
                     <span
-                      class="position-absolute translate-middle badge rounded-pill"
-                      style="
-                        width: 20px;
-                        top: 4px;
-                        right: -16px;
-                        height: 20px;
-                        background-color: #de3f4f;
-                        font-size: 12px;
-                      "
+                      class="position-absolute notification-float-box translate-middle badge rounded-pill"
                     >
                       4
                     </span>
                   </a>
                   <ul
-                    class="dropdown-menu w dropdown-menu-end dropdown position-absolute mt-2"
+                    class="dropdown-menu notification-dropdown-width dropdown-menu-end dropdown position-absolute mt-2"
                     aria-labelledby="notificationDropdown"
-                    style="
-                      width: 300px;
-                      padding: 0;
-                      right: -104px;
-                      overflow: hidden;
-                    "
                   >
                     <li class="px-3 pt-3 pb-3 border-bottom">
                       <h6 class="mb-0 fw-semibold text-dark">Notifications</h6>
                     </li>
-  
+
                     <li>
                       <a
                         class="dropdown-item d-flex align-items-start px-3 pt-3 gap-3"
                         href="#"
-                        style="white-space: normal"
                       >
-                        <div style="height: 40.9px; width: 40.9px">
+                        <div class="img-box-li">
+                          <img
+                            class="h-100 w-100 object-fit-cover rounded-circle"
+                            src="/img/banner.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div>
+                          <div class="fw-medium">Khalakuzzaman Khan</div>
+                          <small class="text-muted">2 minutes ago</small>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item d-flex align-items-start px-3 pt-3 gap-3"
+                        href="#"
+                      >
+                        <div class="img-box-li">
+                          <img
+                            class="h-100 w-100 object-fit-cover rounded-circle"
+                            src="/img/banner.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div>
+                          <div class="fw-medium">Khalakuzzaman Khan</div>
+                          <small class="text-muted">2 minutes ago</small>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item d-flex align-items-start px-3 pt-3 gap-3"
+                        href="#"
+                      >
+                        <div class="img-box-li">
                           <img
                             class="h-100 w-100 object-fit-cover rounded-circle"
                             src="/img/banner.jpg"
@@ -240,7 +194,7 @@
                         href="#"
                         style="white-space: normal"
                       >
-                        <div style="height: 40.9px; width: 40.9px">
+                        <div class="img-box-li">
                           <img
                             class="h-100 w-100 object-fit-cover rounded-circle"
                             src="/img/banner.jpg"
@@ -257,47 +211,8 @@
                       <a
                         class="dropdown-item d-flex align-items-start px-3 pt-3 gap-3"
                         href="#"
-                        style="white-space: normal"
                       >
-                        <div style="height: 40.9px; width: 40.9px">
-                          <img
-                            class="h-100 w-100 object-fit-cover rounded-circle"
-                            src="/img/banner.jpg"
-                            alt=""
-                          />
-                        </div>
-                        <div>
-                          <div class="fw-medium">Khalakuzzaman Khan</div>
-                          <small class="text-muted">2 minutes ago</small>
-                        </div>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        class="dropdown-item d-flex align-items-start px-3 pt-3 gap-3"
-                        href="#"
-                        style="white-space: normal"
-                      >
-                        <div style="height: 40.9px; width: 40.9px">
-                          <img
-                            class="h-100 w-100 object-fit-cover rounded-circle"
-                            src="/img/banner.jpg"
-                            alt=""
-                          />
-                        </div>
-                        <div>
-                          <div class="fw-medium">Khalakuzzaman Khan</div>
-                          <small class="text-muted">2 minutes ago</small>
-                        </div>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        class="dropdown-item d-flex align-items-start px-3 pt-3 gap-3"
-                        href="#"
-                        style="white-space: normal"
-                      >
-                        <div style="height: 40.9px; width: 40.9px">
+                        <div class="img-box-li">
                           <img
                             class="h-100 w-100 object-fit-cover rounded-circle"
                             src="/img/banner.jpg"
@@ -312,10 +227,9 @@
                     </li>
                   </ul>
                 </li>
-  
+
                 <li
-                  class="nav-item position-relative text-center rounded-circle"
-                  style="width: 40px; height: 40px; background-color: #e5e6eb"
+                  class="nav-item position-relative right-navbar-li text-center rounded-circle"
                 >
                   <a
                     class="nav-link d-flex justify-content-center align-items-center w-100 h-100"
@@ -338,32 +252,22 @@
                     </svg>
                   </a>
                 </li>
-  
+
                 <li class="nav-item dropdown me-2" style="list-style: none">
                   <a
                     href="#"
-                    class="nav-link d-flex justify-content-center align-items-center p-0"
+                    class="nav-link right-navbar-li d-flex justify-content-center align-items-center p-0 rounded-circle"
                     id="iconDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
-                    style="
-                      width: 40px;
-                      height: 40px;
-                      background-color: #e5e6eb;
-                      border-radius: 50%;
-                    "
                   >
-                    <img
-                      src="/img/Polygon.svg"
-                      alt="Dropdown Icon"
-                      style="width: 15px; height: 15px"
-                    />
+                    <img class="dropdown-icon" src="/img/Polygon.svg"
+                    alt="Dropdown Icon" = />
                   </a>
                   <ul
-                    class="dropdown-menu dropdown-menu-end position-absolute"
+                    class="dropdown-menu navbar-ul-width dropdown-menu-end position-absolute"
                     aria-labelledby="iconDropdown"
-                    style="min-width: 150px"
                   >
                     <li>
                       <a class="dropdown-item" href="/profile.html">Profile</a>
