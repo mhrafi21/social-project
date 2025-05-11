@@ -27,415 +27,289 @@
   </head>
 
   <body>
-    <!-- navbar -->
-      <nav
-      class="navbar position-fixed d-flex flex-wrap end-0 start-0 navbar-expand-lg bg-light"
-      style="height: 61px; box-shadow: 0px 1px 2px 0px #00000033; z-index: 500"
+  <header
+      class="bg-white header-navbar position-fixed end-0 start-0 custom-z-index custom-box-shadow"
     >
-      <div
-        class="d-flex w-100 h-full align-items-center justify-content-between"
+      <nav
+        class="navbar main-container h-100 w-100 d-flex flex-wrap navbar-expand-lg"
       >
-        <div class="d-flex align-items-center">
-          <div class="me-2">
-            <a
-              class="ms-3 position-relative d-flex align-items-center justify-content-center"
-              style="width: 40px; height: 39.78px; border-radius: 50%"
-              href="/"
-            >
-              <img
-                class="position-absolute bottom-0 w-100 h-100 object-fit-cover"
-                src="/img/logo_pet_dark.png"
-                alt=""
-              />
-            </a>
-          </div>
-
-          <!-- Search Icon with Responsive Dropdown (Mobile Only) -->
-          <li
-            class="nav-item dropdown d-block d-lg-none me-2 position-relative"
-            style="z-index: 1050"
-          >
-            <a
-              class="nav-link d-flex align-items-center justify-content-center p-0"
-              href="#"
-              id="mobileSearchDropdown"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-              style="
-                width: 40px;
-                height: 40px;
-                background-color: #e5e6eb;
-                border-radius: 50%;
-              "
-            >
-              <img
-                src="/img/search.png"
-                alt="Search"
-                style="width: 18px; height: 18px"
-              />
-            </a>
-            <div
-              class="dropdown-menu p-2 w-100"
-              aria-labelledby="mobileSearchDropdown"
-              style="left: 0; right: 0"
-            >
-              <form class="d-flex">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Search..."
-                  aria-label="Search"
+        <div
+          class="d-flex w-100 h-full align-items-center justify-content-between"
+        >
+          <div class="d-flex align-items-center">
+            <div class="me-2">
+              <a
+                class="logo-box position-relative d-flex align-items-center justify-content-center"
+                href="/"
+              >
+                <img
+                  class="position-absolute bottom-0 w-100 h-100 object-fit-cover"
+                  src="/img/logo_pet_dark.png"
+                  alt=""
                 />
-              </form>
+              </a>
             </div>
-          </li>
-
-          <div class="input-group d-none d-lg-block">
-            <div class="position-relative">
-              <img
-                style="
-                  position: absolute;
-                  height: 16px;
-                  width: 16px;
-                  top: 30%;
-                  left: 10px;
-                "
-                src="/img/search.png"
-                alt=""
-              />
-              <input
-                type="text"
-                style="border-radius: 100px; width: 281px"
-                aria-label="Last name"
-                class="form-control ps-5"
-              />
+            <!-- Search Icon with Responsive Dropdown (Mobile Only) -->
+            <div class="input-group d-none d-lg-block">
+              <div class="position-relative">
+                <img class="img-icon" src="/img/search.png" alt="" />
+                <input
+                  type="text"
+                 
+                  aria-label="Last name"
+                  class="form-control ps-5 rs-dropdown-input"
+                />
+              </div>
             </div>
           </div>
-        </div>
-        <div class="w-50 d-none d-lg-block">
-          <div
-            class="d-flex justify-content-evenly"
-            style="margin-right: 150px"
-          >
-            <div>
-              <a href="/index.html"> <img src="/img/home.png" alt="" /></a>
-            </div>
-            <div>
-              <img src="/img/video.png" alt="" />
-            </div>
-            <div>
-              <img src="/img/marketplace.png" alt="" />
-            </div>
-            <div>
-              <img src="/img/friends.png" alt="" />
-            </div>
-            <div>
-              <img src="/img/l-icon.png" alt="" />
+          <div class="w-50 d-none d-lg-block">
+            <div class="d-flex middle-col justify-content-evenly">
+              <div>
+                <a href="/index.html"> <i class="fa-solid fa-house"></i></a>
+              </div>
+              <div>
+                <a href="/#"><i class="fa-brands fa-youtube"></i></a>
+              </div>
+              <div>
+                <a href=""><i class="fa-solid fa-shop"></i></a>
+              </div>
+              <div>
+                <a href=""><i class="fa-solid fa-user-group"></i></a>
+              </div>
+              <div>
+                <a href=""><i class="fa-solid fa-calendar"></i></a>
+              </div>
             </div>
           </div>
-        </div>
-
-        <div>
-          <div class="d-flex">
-            <ul
-              class="navbar-nav flex-row align-items-center"
-              style="gap: 11.9px"
-            >
-              <li
-                class="nav-item position-relative text-center rounded-circle"
-                style="width: 40px; height: 40px; background-color: #e5e6eb"
+          <div>
+            <div class="d-flex">
+              <ul
+                class="navbar-nav right-navbar-gap flex-row align-items-center"
               >
-                <a
-                  class="nav-link d-flex justify-content-center align-items-center w-100 h-100"
-                  href="#"
+                <li
+                  class="nav-item right-navbar-li position-relative text-center rounded-circle"
                 >
-                  <img
-                    src="/img/union.png"
-                    style="width: 15px; height: 15px"
-                    alt=""
-                  />
-                </a>
-              </li>
-
-              <li class="nav-item position-relative">
-                <a
-                  href="#"
-                  class="nav-link d-flex align-items-center justify-content-center p-0"
-                  id="notificationDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  style="
-                    width: 40px;
-                    height: 40px;
-                    background-color: #e5e6eb;
-                    border-radius: 50%;
-                    position: relative;
-                  "
-                >
-                  <svg
-                    viewBox="0 0 24 24"
-                    width="16"
-                    height="16"
-                    fill="#66676B"
-                    aria-hidden="true"
-                  >
-                    <path
-                      d="M3 9.5a9 9 0 1 1 18 0v2.927c0 1.69.475 3.345 1.37 4.778a1.5 1.5 0 0 1-1.272 2.295h-4.625a4.5 4.5 0 0 1-8.946 0H2.902a1.5 1.5 0 0 1-1.272-2.295A9.01 9.01 0 0 0 3 12.43V9.5zm6.55 10a2.5 2.5 0 0 0 4.9 0h-4.9z"
-                    ></path>
-                  </svg>
-                  <span
-                    class="position-absolute translate-middle badge rounded-pill"
-                    style="
-                      width: 20px;
-                      top: 4px;
-                      right: -16px;
-                      height: 20px;
-                      background-color: #de3f4f;
-                      font-size: 12px;
-                    "
-                  >
-                    4
-                  </span>
-                </a>
-                <ul
-                  class="dropdown-menu w dropdown-menu-end dropdown position-absolute mt-2"
-                  aria-labelledby="notificationDropdown"
-                  style="
-                    width: 300px;
-                    padding: 0;
-                    right: -104px;
-                    overflow: hidden;
-                  "
-                >
-                  <li class="px-3 pt-3 pb-3 border-bottom">
-                    <h6 class="mb-0 fw-semibold text-dark">Notifications</h6>
-                  </li>
-
-                  <li>
-                    <a
-                      class="dropdown-item d-flex align-items-start px-3 pt-3 gap-3"
-                      href="#"
-                      style="white-space: normal"
-                    >
-                      <div style="height: 40.9px; width: 40.9px">
-                        <img
-                          class="h-100 w-100 object-fit-cover rounded-circle"
-                          src="/img/banner.jpg"
-                          alt=""
-                        />
-                      </div>
-                      <div>
-                        <div class="fw-medium">Khalakuzzaman Khan</div>
-                        <small class="text-muted">2 minutes ago</small>
-                      </div>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item d-flex align-items-start px-3 pt-3 gap-3"
-                      href="#"
-                      style="white-space: normal"
-                    >
-                      <div style="height: 40.9px; width: 40.9px">
-                        <img
-                          class="h-100 w-100 object-fit-cover rounded-circle"
-                          src="/img/banner.jpg"
-                          alt=""
-                        />
-                      </div>
-                      <div>
-                        <div class="fw-medium">Khalakuzzaman Khan</div>
-                        <small class="text-muted">2 minutes ago</small>
-                      </div>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item d-flex align-items-start px-3 pt-3 gap-3"
-                      href="#"
-                      style="white-space: normal"
-                    >
-                      <div style="height: 40.9px; width: 40.9px">
-                        <img
-                          class="h-100 w-100 object-fit-cover rounded-circle"
-                          src="/img/banner.jpg"
-                          alt=""
-                        />
-                      </div>
-                      <div>
-                        <div class="fw-medium">Khalakuzzaman Khan</div>
-                        <small class="text-muted">2 minutes ago</small>
-                      </div>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item d-flex align-items-start px-3 pt-3 gap-3"
-                      href="#"
-                      style="white-space: normal"
-                    >
-                      <div style="height: 40.9px; width: 40.9px">
-                        <img
-                          class="h-100 w-100 object-fit-cover rounded-circle"
-                          src="/img/banner.jpg"
-                          alt=""
-                        />
-                      </div>
-                      <div>
-                        <div class="fw-medium">Khalakuzzaman Khan</div>
-                        <small class="text-muted">2 minutes ago</small>
-                      </div>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item d-flex align-items-start px-3 pt-3 gap-3"
-                      href="#"
-                      style="white-space: normal"
-                    >
-                      <div style="height: 40.9px; width: 40.9px">
-                        <img
-                          class="h-100 w-100 object-fit-cover rounded-circle"
-                          src="/img/banner.jpg"
-                          alt=""
-                        />
-                      </div>
-                      <div>
-                        <div class="fw-medium">Khalakuzzaman Khan</div>
-                        <small class="text-muted">2 minutes ago</small>
-                      </div>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-
-              <li
-                class="nav-item position-relative text-center rounded-circle"
-                style="width: 40px; height: 40px; background-color: #e5e6eb"
-              >
-                <a
-                  class="nav-link d-flex justify-content-center align-items-center w-100 h-100"
-                  href="#"
-                >
-                  <svg
-                    viewBox="0 0 12 12"
-                    width="17.14"
-                    height="17.14"
-                    fill="#66676B"
-                    aria-hidden="true"
-                    class="xfx01vb x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq"
-                  >
-                    <g stroke="none" stroke-width="1" fill-rule="evenodd">
-                      <path
-                        d="m106.868 921.248-1.892 2.925a.32.32 0 0 1-.443.094l-1.753-1.134a.2.2 0 0 0-.222.003l-1.976 1.363c-.288.199-.64-.143-.45-.437l1.892-2.925a.32.32 0 0 1 .443-.095l1.753 1.134a.2.2 0 0 0 .222-.003l1.976-1.363c.288-.198.64.144.45.438m-3.368-4.251c-3.323 0-5.83 2.432-5.83 5.658 0 1.642.652 3.128 1.834 4.186a.331.331 0 0 1 .111.234l.03 1.01a.583.583 0 0 0 .82.519l1.13-.5a.32.32 0 0 1 .22-.015c.541.148 1.108.223 1.685.223 3.323 0 5.83-2.432 5.83-5.657 0-3.226-2.507-5.658-5.83-5.658"
-                        transform="translate(-450 -1073.5) translate(352.5 156.845)"
-                      ></path>
-                    </g>
-                  </svg>
-                </a>
-              </li>
-
-              <li class="nav-item dropdown me-2" style="list-style: none">
-                <a
-                  href="#"
-                  class="nav-link d-flex justify-content-center align-items-center p-0"
-                  id="iconDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  style="
-                    width: 40px;
-                    height: 40px;
-                    background-color: #e5e6eb;
-                    border-radius: 50%;
-                  "
-                >
-                  <img
-                    src="/img/Polygon.svg"
-                    alt="Dropdown Icon"
-                    style="width: 15px; height: 15px"
-                  />
-                </a>
-                <ul
-                  class="dropdown-menu dropdown-menu-end position-absolute"
-                  aria-labelledby="iconDropdown"
-                  style="min-width: 150px"
-                >
-                  <li>
-                    <a class="dropdown-item" href="/profile.html">Profile</a>
-                  </li>
-                  <li><a class="dropdown-item" href="#">Settings</a></li>
-                  <li><a class="dropdown-item" href="#">Logout</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <!-- navbar -->
-
-    <!-- Main Content -->
-    <main>
-      <div class="main-container" style="padding-top: 80px">
-        <div class="row g-3">
-          <!-- Left Sidebar - Fixed on desktop -->
-          <div class="col d-none d-md-block position-sticky bottom-0">
-            <!-- Sidebar Content -->
-            <div
-              class="bg-white p-3 rounded custom-border-radius custom-box-shadow"
-              style="height: 100vh"
-            >
-              <!-- User Profile -->
-              <h3 class="fw-bold mb-3" style="font-size: 20px">Marketplace</h3>
-
-              <!-- Navigation Links -->
-              <ul class="nav flex-column">
-                <li class="nav-item mb-3 bg-hover-light">
                   <a
-                    class="d-flex text-decoration-none align-items-center"
-                    href="/marketplace.html"
-                    style="color: var(--gray-color); font-size: 15px"
+                    class="nav-link d-flex justify-content-center align-items-center w-100 h-100"
+                    href="#"
                   >
-                    <span
-                      class="d-flex me-2 align-items-center justify-content-center"
-                      style="
-                        height: 40.9px;
-                        width: 40.9px;
-                        background-color: var(--light-color);
-                        border-radius: 50%;
-                      "
-                    >
-                      <img
-                        class="object-fit-cover"
-                        src="/img/friends.png"
-                        alt="Friends"
-                        class=""
-                        style="width: 20px"
-                      />
-                    </span>
-                    Browse all
+                    <img class="dropdown-icon" src="/img/union.png" alt="" />
                   </a>
+                </li>
+                <li class="nav-item position-relative">
+                  <a
+                    href="#"
+                    class="nav-link d-flex right-navbar-li rounded-circle align-items-center position-relative justify-content-center p-0"
+                    id="notificationDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <svg
+                      viewBox="0 0 24 24"
+                      width="16"
+                      height="16"
+                      fill="#66676B"
+                      aria-hidden="true"
+                    >
+                      <path
+                        d="M3 9.5a9 9 0 1 1 18 0v2.927c0 1.69.475 3.345 1.37 4.778a1.5 1.5 0 0 1-1.272 2.295h-4.625a4.5 4.5 0 0 1-8.946 0H2.902a1.5 1.5 0 0 1-1.272-2.295A9.01 9.01 0 0 0 3 12.43V9.5zm6.55 10a2.5 2.5 0 0 0 4.9 0h-4.9z"
+                      ></path>
+                    </svg>
+                    <span
+                      class="position-absolute notification-float-box translate-middle badge rounded-pill"
+                    >
+                      4
+                    </span>
+                  </a>
+                  <ul
+                    class="dropdown-menu notification-dropdown-width dropdown-menu-end dropdown position-absolute mt-2"
+                    aria-labelledby="notificationDropdown"
+                  >
+                    <li class="px-3 pt-3 pb-3 border-bottom">
+                      <h6 class="mb-0 fw-semibold text-dark">Notifications</h6>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item d-flex align-items-start px-3 pt-3 gap-3"
+                        href="#"
+                      >
+                        <div class="img-box-li">
+                          <img
+                            class="h-100 w-100 object-fit-cover rounded-circle"
+                            src="/img/banner.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div>
+                          <div class="fw-medium">Khalakuzzaman Khan</div>
+                          <small class="text-muted">2 minutes ago</small>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item d-flex align-items-start px-3 pt-3 gap-3"
+                        href="#"
+                      >
+                        <div class="img-box-li">
+                          <img
+                            class="h-100 w-100 object-fit-cover rounded-circle"
+                            src="/img/banner.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div>
+                          <div class="fw-medium">Khalakuzzaman Khan</div>
+                          <small class="text-muted">2 minutes ago</small>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item d-flex align-items-start px-3 pt-3 gap-3"
+                        href="#"
+                      >
+                        <div class="img-box-li">
+                          <img
+                            class="h-100 w-100 object-fit-cover rounded-circle"
+                            src="/img/banner.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div>
+                          <div class="fw-medium">Khalakuzzaman Khan</div>
+                          <small class="text-muted">2 minutes ago</small>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item d-flex align-items-start px-3 pt-3 gap-3"
+                        href="#"
+                       
+                      >
+                        <div class="img-box-li">
+                          <img
+                            class="h-100 w-100 object-fit-cover rounded-circle"
+                            src="/img/banner.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div>
+                          <div class="fw-medium">Khalakuzzaman Khan</div>
+                          <small class="text-muted">2 minutes ago</small>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item d-flex align-items-start px-3 pt-3 gap-3"
+                        href="#"
+                      >
+                        <div class="img-box-li">
+                          <img
+                            class="h-100 w-100 object-fit-cover rounded-circle"
+                            src="/img/banner.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div>
+                          <div class="fw-medium">Khalakuzzaman Khan</div>
+                          <small class="text-muted">2 minutes ago</small>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li
+                  class="nav-item position-relative right-navbar-li text-center rounded-circle"
+                >
+                  <a
+                    class="nav-link d-flex justify-content-center align-items-center w-100 h-100"
+                    href="#"
+                  >
+                    <svg
+                      viewBox="0 0 12 12"
+                      width="17.14"
+                      height="17.14"
+                      fill="#66676B"
+                      aria-hidden="true"
+                      class="xfx01vb x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq"
+                    >
+                      <g stroke="none" stroke-width="1" fill-rule="evenodd">
+                        <path
+                          d="m106.868 921.248-1.892 2.925a.32.32 0 0 1-.443.094l-1.753-1.134a.2.2 0 0 0-.222.003l-1.976 1.363c-.288.199-.64-.143-.45-.437l1.892-2.925a.32.32 0 0 1 .443-.095l1.753 1.134a.2.2 0 0 0 .222-.003l1.976-1.363c.288-.198.64.144.45.438m-3.368-4.251c-3.323 0-5.83 2.432-5.83 5.658 0 1.642.652 3.128 1.834 4.186a.331.331 0 0 1 .111.234l.03 1.01a.583.583 0 0 0 .82.519l1.13-.5a.32.32 0 0 1 .22-.015c.541.148 1.108.223 1.685.223 3.323 0 5.83-2.432 5.83-5.657 0-3.226-2.507-5.658-5.83-5.658"
+                          transform="translate(-450 -1073.5) translate(352.5 156.845)"
+                        ></path>
+                      </g>
+                    </svg>
+                  </a>
+                </li>
+                <li class="nav-item dropdown list-style-none">
+                  <a
+                    href="#"
+                    class="nav-link right-navbar-li d-flex justify-content-center align-items-center p-0 rounded-circle"
+                    id="iconDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <img
+                      class="dropdown-icon"
+                      src="/img/Polygon.svg"
+                      alt="Dropdown Icon"
+                    />
+                  </a>
+                  <ul
+                    class="dropdown-menu navbar-ul-width dropdown-menu-end position-absolute"
+                    aria-labelledby="iconDropdown"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="/profile.html">Profile</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                    <li><a class="dropdown-item" href="#">Logout</a></li>
+                  </ul>
                 </li>
               </ul>
             </div>
           </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <div class="main-container s-main-con" >
+        <div class="row g-3">
+          <!-- Left Sidebar - Fixed on desktop -->
+          <div class="col d-none d-md-block position-sticky bottom-0">
+                <div class="p-3 h-100 bg-white  custom-border-radius custom-box-shadow">
+                    <h3 class="fw-bold market-title">Marketplace</h3>
+                    <ul class="nav flex-column gap-4 mt-3">
+                        <li class="nav-item">
+                            <a class="nav-link  p-0 mark-title-clr" href="/marketplace.html"><i class="fas fa-users me-2"></i>Browse all</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
 
           <div class="col-12 col-md-8 col-lg-9 col-xl-9 ms-md-auto">
             <div class="">
               <!-- Search Header -->
               <div class="mb-3">
-                <h3 class="fw-bold bg-white p-3 custom-border-radius custom-box-shadow" style="font-size: 20px">Today's picks</h3>
-                <!-- card start -->
+                <h3 class="fw-bold bg-white p-3 custom-border-radius custom-box-shadow market-title">Today's picks</h3>
+              
                 <div
                   class="d-flex bg-white custom-border-radius custom-box-shadow p-3 flex-column gap-3 mt-3"
                 >
+                  <!-- card start -->
                   <div class="">
                     <div class="d-flex flex-md-row flex-column gap-3">
                       <div>
-                        <div class="" style="height: 150px">
+                        <div class="m-img">
                           <img
                             class="h-100 w-100 object-fit-cover custom-border-radius"
                             src="/img/banner.jpg"
@@ -445,18 +319,14 @@
                       </div>
                       <div class="flex-fill">
                         <h5
-                          class="fw-medium"
-                          style="font-size: 16px; line-height: 0.7"
+                          class="fw-medium m-top-title"
+                          
                         >
                           BDT 700
                         </h5>
                         <div class="d-flex align-items-center gap-2">
                           <span
-                            style="
-                              color: var(--gray-color);
-                              font-size: 13px;
-                              font-weight: 400;
-                            "
+                           class="m-text"
                           >
                             Exclusive Men's Shoe</span
                           >
@@ -465,11 +335,8 @@
                           class="mt-3 rounded-circle w-100 gap-3 d-flex flex-md-row flex-column"
                         >
                           <button
-                            class="h-50 border mt-auto custom-btn"
-                            style="
-                              background-color: var(--blue-color);
-                              color: var(--white-color);
-                            "
+                            class="h-50 border mt-auto custom-btn m-btn"
+                            
                           >
                             Buy now
                           </button>
@@ -477,16 +344,13 @@
                       </div>
                     </div>
                   </div>
-                </div>
-                <!-- card end -->
-                <!-- card start -->
-                <div
-                  class="d-flex bg-white custom-border-radius custom-box-shadow p-3 flex-column gap-3 mt-3"
-                >
-                  <div class="">
+                  
+                  <!-- card end -->
+                     <!-- card start -->
+                  <div class="pt-3 border-top">
                     <div class="d-flex flex-md-row flex-column gap-3">
                       <div>
-                        <div class="" style="height: 150px">
+                        <div class="m-img">
                           <img
                             class="h-100 w-100 object-fit-cover custom-border-radius"
                             src="/img/banner.jpg"
@@ -496,18 +360,14 @@
                       </div>
                       <div class="flex-fill">
                         <h5
-                          class="fw-medium"
-                          style="font-size: 16px; line-height: 0.7"
+                          class="fw-medium m-top-title"
+                          
                         >
                           BDT 700
                         </h5>
                         <div class="d-flex align-items-center gap-2">
                           <span
-                            style="
-                              color: var(--gray-color);
-                              font-size: 13px;
-                              font-weight: 400;
-                            "
+                           class="m-text"
                           >
                             Exclusive Men's Shoe</span
                           >
@@ -516,11 +376,8 @@
                           class="mt-3 rounded-circle w-100 gap-3 d-flex flex-md-row flex-column"
                         >
                           <button
-                            class="h-50 border mt-auto custom-btn"
-                            style="
-                              background-color: var(--blue-color);
-                              color: var(--white-color);
-                            "
+                            class="h-50 border mt-auto custom-btn m-btn"
+                            
                           >
                             Buy now
                           </button>
@@ -528,8 +385,11 @@
                       </div>
                     </div>
                   </div>
+                  
+                  <!-- card end -->
+
                 </div>
-                <!-- card end -->
+             
               </div>
             </div>
           </div>
