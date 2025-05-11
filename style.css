@@ -583,10 +583,9 @@ body {
 
 .action-like {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   gap: 0.25rem;
-  width: 100%;
   font-size: 15px;
   font-weight: 500;
   color: var(--gray-color);
@@ -594,6 +593,8 @@ body {
 
 .action-icon {
   width: 16px;
+  padding: 10px;
+  background-color: var(--light-blur);
 }
 
 .emoji-box {
