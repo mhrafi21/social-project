@@ -26,9 +26,11 @@
   </head>
 
   <body>
-    <header>
+    <header
+      class="bg-white header-navbar position-fixed end-0 start-0 custom-z-index custom-box-shadow"
+    >
       <nav
-        class="navbar header-navbar main-container position-fixed d-flex flex-wrap end-0 start-0 navbar-expand-lg bg-light"
+        class="navbar main-container h-100 w-100 d-flex flex-wrap navbar-expand-lg"
       >
         <div
           class="d-flex w-100 h-full align-items-center justify-content-between"
@@ -36,7 +38,7 @@
           <div class="d-flex align-items-center">
             <div class="me-2">
               <a
-                class="ms-3 logo-box position-relative d-flex align-items-center justify-content-center"
+                class="logo-box position-relative d-flex align-items-center justify-content-center"
                 href="/"
               >
                 <img
@@ -250,7 +252,7 @@
                   </a>
                 </li>
 
-                <li class="nav-item dropdown me-2" style="list-style: none">
+                <li class="nav-item dropdown" style="list-style: none">
                   <a
                     href="#"
                     class="nav-link right-navbar-li d-flex justify-content-center align-items-center p-0 rounded-circle"
@@ -259,8 +261,11 @@
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    <img class="dropdown-icon" src="/img/Polygon.svg"
-                    alt="Dropdown Icon" = />
+                    <img
+                      class="dropdown-icon"
+                      src="/img/Polygon.svg"
+                      alt="Dropdown Icon"
+                    />
                   </a>
                   <ul
                     class="dropdown-menu navbar-ul-width dropdown-menu-end position-absolute"

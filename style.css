@@ -79,7 +79,6 @@ body {
 
 .header-navbar {
   height: 61px;
-  box-shadow: 0px 1px 2px 0px var(--box-shadow-color);
   z-index: 500;
 }
 
@@ -89,8 +88,8 @@ body {
   border-radius: 50%;
 }
 
-.header-navbar .custom-z-index {
-  z-index: 1050;
+ .custom-z-index {
+  z-index: 9999px;
 }
 
 .header-navbar .img-icon {
@@ -246,18 +245,3 @@ body {
   padding: 0 15px;
   margin: 0 auto;
 }
-
-/* search page */
-
-/* market place  */
-/* @media (min-width: 1060px){
-  .left-nav-width{
-    width: 300px
-  }
-}
-@media (min-width: 1060px){
-  .left-nav-width{
-    width: 300px
-  }
-} */
-/* market place  */
