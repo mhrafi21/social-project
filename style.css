@@ -842,3 +842,15 @@ body {
   border: none;
 }
 /* search */
+
+.avatar-size{
+  width: 14px;
+  height: 14px;
+  background-color: var(--light-color);
+
+} 
+
+.avatar-size i{
+  font-size: 12px;
+  margin-top: 1.8px;
+}
